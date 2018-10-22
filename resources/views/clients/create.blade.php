@@ -71,15 +71,12 @@
                                         <input id="aniversario" placeholder="data aniversário" type="date" class="form-control" name="aniversario" required> 
                                     </div>
                                 </div>
-                                <div class="form-group row" style="padding-top: 35px;">
-                                        <div class="col-md-12">
-                                    <label for="password-confirm" class="col-md-12 col-form-label text-md-left">{{ __('Repita Senha') }}</label>                            
-                                    
-
-                                    <div class="col-md-6">
+                                <div class="form-group row">
+                                    <div class="col-md-12" style="padding-top: 34px">
+                                        <label for="password-confirm" class="col-md-12 col-form-label text-md-left">{{ __('Repita Senha') }}</label>                            
                                         <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required>
                                     </div>
-                                    </div>
+                                    
                                 </div>
                             </div> 
                                     {{-- Botão Enviar --}}

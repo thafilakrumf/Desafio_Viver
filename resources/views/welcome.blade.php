@@ -4,7 +4,9 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
+        <script src="{{ asset('js/app.js') }}" defer></script>
         <title>Desafio Viver</title>
 
         <!-- Fonts -->
@@ -79,13 +81,13 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    <img src="../img/viver.png" style="margin-left:70px;">
+                    <img  src="../img/viver.png" style="margin-left:70px;">
                     <div class="form-group row mb-0">
-                        <div class="col-md-4 offset-md-4">
-                            <button type="submit" class="btn btn-primary">
+                        
+                        <a type="submit" class="btn btn-primary" href="{{route("client.index")}}">
                                 {{ __('Todos os clientes') }}
-                            </button>
-                        </div>
+                            </a>
+                        
                     </div>
                     {{-- <a href="">Todos os Clientes</a> --}}
                 </div>
