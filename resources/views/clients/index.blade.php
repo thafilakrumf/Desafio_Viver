@@ -31,10 +31,13 @@
                                             </tr>
                                         </thead>
                                         <tbody>
+                                            @php
+                                                $n=0;
+                                            @endphp
                                             @foreach ($clients as $client )
                                                 
                                                 <tr>
-                                                    <th scope="row">1</th>
+                                                    <th scope="row">{{++$n}}</th>
                                                     <td>{{$client->name}}</td>
                                                     <td>{{$client->sobrenome}}</td>
                                                     <td>{{$client->email}}</td>
