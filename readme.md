@@ -7,6 +7,10 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## Instruções do Desafio
+
+    O desafio consiste no desenvolvimento de um software básico com duas páginas. A primeira é referente ao formulário de cadastro e a segunda consiste na tabela com todos os clientes cadastrados. Os dados devem ser salvos em um Banco MySql através do PHP. Na página de cadastro, deve ser confirmado a senha corretamente e a verificação dessa informação deve ser feita através de Javascript.
+
 ## Instruções de Inicialização de Projeto
 
 
